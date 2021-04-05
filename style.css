@@ -1,0 +1,28 @@
+html, body {
+    font-family: 'Work Sans', sans-serif;
+    color: #666;
+}
+
+#list-quiz {
+    list-style: none;
+    line-height: 26px;
+    padding: 0 10px;
+}
+
+#list-quiz li:not(:first-child) {
+    margin-top: 20px;
+    border-top: 1px solid #000;
+    padding-top: 20px;
+}
+
+#list-quiz pre {
+    margin-top: -20px;
+}
+
+.quiz-text {
+    margin: 0;
+}
+
+.answer-block {
+    margin-top: -50px;
+}

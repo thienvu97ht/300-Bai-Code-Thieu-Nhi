@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/styles/monokai.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <ul id="list-quiz">
+        <li id="quiz-item-id">
+            <pre>
+                <code class="javascript">
+                    <span id="showCode"></span>
+                </code>
+            </pre>
+
+            <input type="radio" id="one" name="gender" value="1">
+            <label for="one">
+                <span id="answerA"></span>
+            </label><br>
+
+            <input type="radio" id="tow" name="gender" value="2">
+            <label for="tow">
+                <span id="answerB"></span>
+            </label><br>
+
+            <input type="radio" id="three" name="gender" value="3">
+            <label for="three">
+                <span id="answerC"></span>
+            </label><br>
+
+            <input type="radio" id="for" name="gender" value="4">
+            <label for="four">
+                <span id="answerD"></span>
+            </label>
+        </li>
+    </ul>
+
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/highlight.min.js"></script>
+    <script>
+        hljs.highlightAll();
+    </script>
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
